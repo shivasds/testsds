@@ -1,0 +1,652 @@
+.sm-clean {
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+}
+.sm-clean a {
+  padding: 20px 58px 20px 20px;
+  /* make room for the toggle button (sub indicator) */
+  padding-right: 58px;
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 17px;
+  text-decoration: none;
+}
+.sm-clean a:hover, 
+.sm-clean a:focus, 
+.sm-clean a:active {
+  color: #19b5fe;
+}
+.sm-clean a.current {
+  color: #19b5fe;
+}
+.sm-clean a.disabled {
+  color: #bbbbbb;
+}
+.sm-clean a span.sub-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: auto;
+  right: 4px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  font: bold 16px/34px monospace !important;
+  text-align: center;
+  text-shadow: none;
+  background: rgba(255, 255, 255, 0);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+.sm-clean a.highlighted span.sub-arrow:before {
+  display: block;
+  content: '-';
+}
+.sm-clean li {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.sm-clean > li:first-child {
+  border-top: 0;
+}
+.sm-clean ul {
+  background: rgba(162, 162, 162, 0.1);
+}
+.sm-clean ul a {
+  font-size: 14px;
+  color: #666;
+  border-left: 12px solid transparent;
+}
+.sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active {
+  color: #19b5fe;
+}
+.sm-clean ul ul a,
+.sm-clean ul ul a:hover,
+.sm-clean ul ul a:focus,
+.sm-clean ul ul a:active {
+  border-left: 16px solid transparent;
+}
+.sm-clean ul ul ul a,
+.sm-clean ul ul ul a:hover,
+.sm-clean ul ul ul a:focus,
+.sm-clean ul ul ul a:active {
+  border-left: 24px solid transparent;
+}
+.sm-clean ul ul ul ul a,
+.sm-clean ul ul ul ul a:hover,
+.sm-clean ul ul ul ul a:focus,
+.sm-clean ul ul ul ul a:active {
+  border-left: 32px solid transparent;
+}
+.sm-clean ul ul ul ul ul a,
+.sm-clean ul ul ul ul ul a:hover,
+.sm-clean ul ul ul ul ul a:focus,
+.sm-clean ul ul ul ul ul a:active {
+  border-left: 40px solid transparent;
+}
+
+@media (min-width: 992px) {
+  /* Switch to desktop layout
+  -----------------------------------------------
+     These transform the menu tree from
+     collapsible to desktop (navbar + dropdowns)
+  -----------------------------------------------*/
+  /* start... (it's not recommended editing these rules) */
+  .sm-clean {
+  -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  margin-right: -12px;
+  }
+  .sm-clean ul {
+    position: absolute;
+    width: 12em;
+    z-index: 111111;
+  }
+  .sm-clean li {
+    float: left;
+  }
+  .sm-clean.sm-rtl li {
+    float: right;
+  }
+  .sm-clean ul li, .sm-clean.sm-rtl ul li, .sm-clean.sm-vertical li {
+    float: none;
+  }
+  .sm-clean a {
+    white-space: nowrap;
+  }
+  .sm-clean ul a, .sm-clean.sm-vertical a {
+    white-space: normal;
+  }
+  .sm-clean .sm-nowrap > li > a, .sm-clean .sm-nowrap > li > :not(ul) a {
+    white-space: nowrap;
+  }
+
+  /* ...end */
+
+  .sm-clean a, .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
+    padding: 12px 12px;
+    color: #000;
+    letter-spacing: 1px;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    border-radius: 0 !important;
+  }
+  .sm-clean a:hover, .sm-clean a:focus, .sm-clean a:active, .sm-clean a.highlighted {
+    color: #19b5fe;
+  }
+  .sm-clean a.current {
+    color: #19b5fe;
+  }
+  .sm-clean a.disabled {
+    color: #bbbbbb;
+  }
+  .sm-clean a.has-submenu {
+    padding-right: 24px;
+  }
+  .sm-clean a span.sub-arrow {
+    top: 50%;
+    margin-top: -2px;
+    right: 12px;
+    width: 0;
+    height: 0;
+    border-width: 4px;
+    border-style: solid dashed dashed dashed;
+    border-color: #000 transparent transparent transparent;
+    background: transparent;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+  }
+  .sm-clean a.highlighted span.sub-arrow:before {
+    display: none;
+  }
+  .sm-clean li {
+    border-top: 0;
+  }
+  .sm-clean > li > ul:before,
+  .sm-clean > li > ul:after {
+    content: '';
+    position: absolute;
+    top: -18px;
+    left: 30px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+  }
+  .sm-clean > li > ul:after {
+    top: -16px;
+    left: 31px;
+    border-width: 8px;
+    border-color: transparent transparent white transparent;
+  }
+  .sm-clean ul {
+    padding: 20px 0;
+    background: white;
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  }
+  .sm-clean ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    letter-spacing: 0;
+    border-right: 3px solid transparent !important;
+  }
+  .sm-clean ul a, .sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active, .sm-clean ul a.highlighted {
+    border: 0 !important;
+    padding: 12px 60px 12px 20px;
+    color: #555555;
+  }
+  .sm-clean ul a:hover, .sm-clean ul a:focus, .sm-clean ul a:active, .sm-clean ul a.highlighted {
+    color: #19b5fe;
+    font-size: 14px;
+    letter-spacing: 0;
+    border-right: 3px solid #19b5fe !important;
+  }
+  .sm-clean ul a.current {
+    color: #19b5fe;
+  }
+  .sm-clean ul a.disabled {
+    background: white;
+    color: #cccccc;
+  }
+  .sm-clean ul a.has-submenu {
+    padding-right: 20px;
+  }
+  .sm-clean ul a span.sub-arrow {
+    right: 8px;
+    top: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #555555;
+  }
+  .sm-clean span.scroll-up,
+  .sm-clean span.scroll-down {
+    position: absolute;
+    display: none;
+    visibility: hidden;
+    overflow: hidden;
+    background: white;
+    height: 20px;
+  }
+  .sm-clean span.scroll-up:hover,
+  .sm-clean span.scroll-down:hover {
+    background: #f8f8f8;
+  }
+  .sm-clean span.scroll-up:hover span.scroll-up-arrow, .sm-clean span.scroll-up:hover span.scroll-down-arrow {
+    border-color: transparent transparent #19b5fe transparent;
+  }
+  .sm-clean span.scroll-down:hover span.scroll-down-arrow {
+    border-color: #19b5fe transparent transparent transparent;
+  }
+  .sm-clean span.scroll-up-arrow, .sm-clean span.scroll-down-arrow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -6px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    border-width: 6px;
+    border-style: dashed dashed solid dashed;
+    border-color: transparent transparent #555555 transparent;
+  }
+  .sm-clean span.scroll-down-arrow {
+    top: 8px;
+    border-style: solid dashed dashed dashed;
+    border-color: #555555 transparent transparent transparent;
+  }
+  .sm-clean.sm-rtl a.has-submenu {
+    padding-right: 12px;
+    padding-left: 24px;
+  }
+  .sm-clean.sm-rtl a span.sub-arrow {
+    right: auto;
+    left: 12px;
+  }
+  .sm-clean.sm-rtl.sm-vertical a.has-submenu {
+    padding: 10px 20px;
+  }
+  .sm-clean.sm-rtl.sm-vertical a span.sub-arrow {
+    right: auto;
+    left: 8px;
+    border-style: dashed solid dashed dashed;
+    border-color: transparent #555555 transparent transparent;
+  }
+  .sm-clean.sm-rtl > li > ul:before {
+    left: auto;
+    right: 30px;
+  }
+  .sm-clean.sm-rtl > li > ul:after {
+    left: auto;
+    right: 31px;
+  }
+  .sm-clean.sm-rtl ul a.has-submenu {
+    padding: 10px 20px !important;
+  }
+  .sm-clean.sm-rtl ul a span.sub-arrow {
+    right: auto;
+    left: 8px;
+    border-style: dashed solid dashed dashed;
+    border-color: transparent #555555 transparent transparent;
+  }
+  .sm-clean.sm-vertical {
+    padding: 10px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+  .sm-clean.sm-vertical a {
+    padding: 10px 20px;
+  }
+  .sm-clean.sm-vertical a:hover, .sm-clean.sm-vertical a:focus, .sm-clean.sm-vertical a:active, .sm-clean.sm-vertical a.highlighted {
+    background: white;
+  }
+  .sm-clean.sm-vertical a.disabled {
+    background: #eeeeee;
+  }
+  .sm-clean.sm-vertical a span.sub-arrow {
+    right: 8px;
+    top: 50%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: dashed dashed dashed solid;
+    border-color: transparent transparent transparent #555555;
+  }
+  .sm-clean.sm-vertical > li > ul:before,
+  .sm-clean.sm-vertical > li > ul:after {
+    display: none;
+  }
+  .sm-clean.sm-vertical ul a {
+    padding: 10px 20px;
+  }
+  .sm-clean.sm-vertical ul a:hover, .sm-clean.sm-vertical ul a:focus, .sm-clean.sm-vertical ul a:active, .sm-clean.sm-vertical ul a.highlighted {
+    background: #eeeeee;
+  }
+  .sm-clean.sm-vertical ul a.disabled {
+    background: white;
+  }
+}
+
+
+/*
+=================
+MENUE LAYOUT CSS
+================
+*/
+.main-nav {
+  padding: 30px 0;
+  border-bottom: 1px solid #ececec;
+}
+.main-nav:after {
+  clear: both;
+  content: "\00a0";
+  display: block;
+  height: 0;
+  font: 0px/0 serif;
+  overflow: hidden;
+}
+.nav-brand {
+  float: left;
+  margin: 0;
+}
+#main-menu {
+  clear: both;
+}
+
+@media (min-width: 992px) {
+  #main-menu {
+    float: right;
+    clear: none;
+  }
+}
+
+
+/* Mobile menu toggle button */
+.main-menu-btn {
+  float: right;
+  margin: 15px 0 0;
+  position: relative;
+  display: inline-block;
+  width: 29px;
+  height: 29px;
+  text-indent: 29px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.main-menu-btn-icon:after {
+  content: '';
+  top: 7px;
+  left: 0;
+}
+/*
+=====================
+MENUE LAYOUT CSS END
+=====================
+*/
+
+
+/*
+============================
+Here is some sample code that 
+adds a menu toggle button on small screens (hamburger/x icon).
+============================
+*/
+.main-menu-btn {
+  position: relative;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  text-indent: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* hamburger icon */
+.main-menu-btn-icon, .main-menu-btn-icon:before, .main-menu-btn-icon:after {
+  position: absolute;
+  top: 50%;
+  left: 2px;
+  height: 2px;
+  width: 24px;
+  background: #000;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+}
+.main-menu-btn-icon:before {
+  content: '';
+  top: -7px;
+  left: 0;
+}
+.main-menu-btn-icon:after {
+  content: '';
+  top: 7px;
+  left: 0;
+}
+
+/* x icon */
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon {
+  height: 0;
+  background: transparent;
+}
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:before {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#main-menu-state:checked ~ .main-menu-btn .main-menu-btn-icon:after {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* hide menu state checkbox (keep it visible to screen readers) */
+#main-menu-state {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(1px,1px,1px,1px);
+}
+
+/* hide the menu in mobile view */
+#main-menu-state:not(:checked) ~ #main-menu {
+  display: none;
+}
+#main-menu-state:checked ~ #main-menu {
+  display: block;
+}
+@media (min-width: 992px) {
+  /* hide the button in desktop view */
+  .main-menu-btn {
+    position: absolute;
+    top: -99999px;
+  }
+  /* always show the menu in desktop view */
+  #main-menu-state:not(:checked) ~ #main-menu {
+    display: block;
+  }
+}
+/*
+============================
+END
+============================
+*/
+
+  .sm-clean .left-right {
+    width: 60%;
+    display: block;
+    line-height: 0;
+    padding-left: 12px;
+    margin: 0;
+    position: absolute;
+  }
+  .sm-clean .left, .sm-clean .right {
+    display: block;
+    float: left;
+    height: 2px;
+    width: 50%;
+  }
+  .sm-clean .left {
+    background-color: #000;
+  }
+  .sm-clean .right {
+    background-color: #19b5fe;
+  }
+
+
+/*
+=================
+ MEGA MENU
+=================
+ */
+/* make mega menus take the full width of .main-nav */
+
+#main-menu,
+#main-menu > .has-mega-menu {
+  position: static !important;
+}
+#main-menu > .has-mega-menu .left-right{
+  width: 4%;
+}
+#main-menu .mega-menu {
+  margin-left: 0 !important;
+  right: 0 !important;
+  width: auto !important;
+  max-width: none !important;
+}
+#main-menu > .has-mega-menu .scroll-up,
+#main-menu > .has-mega-menu .scroll-down {
+  margin-left: 0 !important;
+}
+#main-menu > .has-mega-menu ul li a:active {
+  border-right: transparent;
+  color: #000;
+}
+
+
+
+/* clear any floats inside the mega menus */
+
+#main-menu .mega-menu > li {
+  overflow: auto;
+}
+
+
+/* reset mega menu list/link styles (which are inherited from the SmartMenus core/theme styles) */
+
+
+
+#main-menu .mega-menu {
+  
+}
+#main-menu .mega-menu ul {
+  position: static;
+  display: block;
+  margin: 15px 0;
+  border: 0;
+  padding: 0 0 0 15px;
+  width: auto;
+  background: transparent;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#main-menu .mega-menu ul li {
+  list-style-type: none;
+  border: 0;
+  margin-bottom: 10px;
+}
+#main-menu .mega-menu h4 {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+
+.sm-clean li.has-mega-menu ul li a:hover, 
+.sm-clean li.has-mega-menu ul li a:focus, 
+.sm-clean li.has-mega-menu ul li a:active, 
+.sm-clean li.has-mega-menu ul li a.current {
+    color: #19b5fe !important;
+    border-right: 3px solid transparent !important;
+  }
+
+#main-menu .mega-menu a {
+  display: inline;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: #666;
+  text-decoration: none;
+}
+
+
+/* simple columns inside the mega menus */
+
+#main-menu .mega-menu .column-1-3 {
+  padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+  #main-menu .mega-menu .column-1-3 {
+    float: left;
+    width: 33.33%;
+  }
+}
+
+/* Sample image placeholder */
+.mega-menu-sample-image {
+  margin: 0.83em 0;
+  border: 1px solid;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+/* Mobile menu top separator */
+#main-menu:before {
+  content: '';
+  display: block;
+  height: 4px;
+  font: 1px/1px sans-serif;
+  overflow: hidden;
+  background: #19b5fe;
+}
+
+
+@media (min-width: 992px) {
+  #main-menu:before {
+    display: none;
+  }
+
+}
+/*
+=================
+ MEGA MENU END
+=================
+ */
+
+
+
+
