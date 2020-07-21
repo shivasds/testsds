@@ -54,6 +54,6 @@
  
     <script src="<?=base_url()?>assets/sds-content/new/js/header-mobile.js"></script>
   
-<!-- <script defer src="<?=base_url()?>assets/sds-content/new/js/analyst.js"></script> -->
+<script defer src="<?=base_url()?>assets/sds-content/new/js/analyst.js"></script>
 
 </head>

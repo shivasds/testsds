@@ -1979,7 +1979,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	background-attachment:fixed;
 	background-repeat:no-repeat;
   text-align:center;
-  background-image:url('../../../../assets/sds-content/uploads/istockphoto-656453072-612x612.jpg');
+  background:rgb(106 183 175 / 60%);
+  /* background-image:url('../../../../assets/sds-content/uploads/istockphoto-656453072-612x612.jpg'); */
 }
 
 .demo-section:before{
@@ -1988,8 +1989,9 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 	left:0px;
 	top:0px;
 	width:100%;
-	height:100%;
-	background:rgba(199, 194, 194, 0.6);
+  height:100%;
+  opacity: .2;
+	background-image:url('../../../../assets/sds-content/uploads/bg2.jpg');
 	z-index:0;	
 }
 
@@ -2133,13 +2135,13 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   top: 0px;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.60);
+  background: rgba(255, 255, 255, 0.397);
   z-index: 0;
 }
 .client-section {
   position: relative;
   padding: 90px 0px 60px;
-  background-image: url(../../../../assets/sds-content/uploads/testbg.png);
+  background-image: url(../../../../assets/sds-content/uploads/timeline_bg.jpg);
   background-position: center top;
   padding-bottom: 60px!important;
   padding-top: 60px!important;

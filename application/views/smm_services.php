@@ -2,7 +2,11 @@
 
     <link type=text/css media=all href=<?=base_url();?>assets/sds-content/new/css/smm-services.css rel=stylesheet>
     <link rel=stylesheet id=ms-custom-css href='<?=base_url();?>assets/sds-content/new/css/common.css' type=text/css media=all>
-
+<style>
+      #dslc-content .fist5 .dslc-info-box-icon-pos-aside .dslc-info-box-main{
+            margin-bottom:27px!important
+        }
+    </style>
     <body>
         <div class=off-canvas-wrap>
             <div class="site global-container inner-wrap" id=global-container>
@@ -200,8 +204,8 @@
                                                         <div class="col-lg-12">
                                                             <div class="row">
                                                                 <!-- fist col -->
-                                                                <div class="col-lg-4">
-                                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                                <div class="col-lg-6">
+                                                                    <div id=dslc-module-Icons class="fist1 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                             <div class=dslc-info-box-wrapper>
                                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -219,8 +223,8 @@
                                                                 </div>
 
                                                                 <!-- second col -->
-                                                                <div class="col-lg-4">
-                                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                                <div class="col-lg-6">
+                                                                    <div id=dslc-module-Icons class="fist2 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                             <div class=dslc-info-box-wrapper>
                                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -239,8 +243,8 @@
                                                               
 
                                                                 <!-- third col -->
-                                                                <div class="col-lg-4">
-                                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                                <div class="col-lg-6">
+                                                                    <div id=dslc-module-Icons class="fist3 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                             <div class=dslc-info-box-wrapper>
                                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -257,11 +261,10 @@
                                                                     </div>
                                                                 </div>
 
-                                                            </div>
-                                                            <div class="row">
+                                                           
                                                                 <!-- fourth col -->
-                                                                <div class="col-lg-4">
-                                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                                <div class="col-lg-6">
+                                                                    <div id=dslc-module-Icons class="fist4 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                             <div class=dslc-info-box-wrapper>
                                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -279,8 +282,8 @@
                                                                 </div>
 
                                                                 <!-- fifth col -->
-                                                                <div class="col-lg-4">
-                                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                                <div class="col-lg-6">
+                                                                    <div id=dslc-module-Icons class="fist5 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                             <div class=dslc-info-box-wrapper>
                                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -298,8 +301,8 @@
                                                                 </div>
 
                                                                 <!-- sixth col -->
-                                                                <div class="col-lg-4">
-                                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                                <div class="col-lg-6">
+                                                                    <div id=dslc-module-Icons class="fist6 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                             <div class=dslc-info-box-wrapper>
                                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">

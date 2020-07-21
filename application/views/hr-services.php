@@ -146,12 +146,12 @@
                                                                 <div class="dslc-info-box-seperate">
 
                                                                             <ul>
-                                                                                <li >Medical advantages</li>
-                                                                                <li >Retirement savings plans</li>
-                                                                                <li >Family leave</li>
-                                                                                <li >Adaptable work options</li>
-                                                                                <li >Expert and career growth benefits</li>
-                                                                                <li >And more...</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Medical advantages</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Retirement savings plans</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Family leave</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Adaptable work options</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Expert and career growth benefits</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>And more...</li>
                                                                                 
                                                                             </ul>
                                                                            
@@ -182,15 +182,15 @@
                                                                     <strong>HR services in Bangalore</strong>:</p>
 
                                                                     <ul>
-                                                                                <li >HR help desk</li>
-                                                                                <li >HR outsourcing</li>
-                                                                                <li >Key counselling services</li>
-                                                                                <li >Proficient employer association</li>
-                                                                                <li >Free-up time and resources</li>
-                                                                                <li >Enhance the employee experience</li>
-                                                                                <li >Improve team collaboration</li>
-                                                                                <li >Never lose track of employee inquiries</li>
-                                                                                <li >Total visibility of HR service management</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>HR help desk</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>HR outsourcing</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Key counselling services</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Proficient employer association</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Free-up time and resources</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Enhance the employee experience</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Improve team collaboration</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Never lose track of employee inquiries</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Total visibility of HR service management</li>
                                                                                 <li>Reduce costs</li>
                                                                                 
                                                                             </ul>
@@ -237,26 +237,26 @@
                                                                 <div class="dslc-info-box-seperate">
 
                                                                 <ol>
-                                                                                <li ><h3>Recruitment Process:</h3><p>We are a recruitment outsourcing specialist co-op who obliges the
+                                                                                 <li ><h3>Recruitment Process:</h3><p>We are a recruitment outsourcing specialist co-op who obliges the
                                                                             organization's work and recruiting technique at the hour of necessity at a minimal expense. This
                                                                             could either be a part of a whole methodology that has been redistributed to them. We have been
                                                                             related to worldwide and national organizations and have developed to be one of the best <strong>HR
                                                                             consultancies in Bangalore</strong>.</p></li>
 
-                                                                            <li ><h3>Permanent Staffing:</h3><p>Our permanent staffing services give you access to completely screened and
+                                                                             <li ><h3>Permanent Staffing:</h3><p>Our permanent staffing services give you access to completely screened and
                                                                             qualified competitors in any industry of your liking. We have a solid group of experts who commit
                                                                             themselves to help your organization accomplish its business goals. Our HR services in Bangalore are
                                                                             secure and guarantee that we offer our customers the best applicants at any level, with the quickest
                                                                             turnaround time.</p></li>
 
 
-                                                                            <li ><h3>Contract Hiring:</h3><p>SDS offers a contract job to its customers. It is one of the fundamental services
+                                                                             <li ><h3>Contract Hiring:</h3><p>SDS offers a contract job to its customers. It is one of the fundamental services
                                                                             given by our team so as to recognize candidates for brief and on a contract basis. We assume total
                                                                             responsibility to assess the performance of the applicants reasonable for the client's business. At the
                                                                             point when we get our clients ready, we make a point to make a solid relation so as to have a
                                                                             successful <strong>HR solution service in Bangalore</strong>.</p></li>
 
-                                                                            <li ><h3>Talent Research:</h3><p>It helps associations and corporate firms to enlist candidates for all the official
+                                                                             <li ><h3>Talent Research:</h3><p>It helps associations and corporate firms to enlist candidates for all the official
                                                                             profiles. It isn't just the employing and the recruitment procedure that is dealt with, yet all the job
                                                                             searchers who are looking for balanced growth in their career get the direction from SDS's <strong>HR solution service in Bangalore</strong>. What's more, to make this best from the rest of the consultancy firms, SDS
                                                                             has a group of experts who guarantee that the worthy candidate is selected for the official job,
@@ -269,11 +269,11 @@
                                                                             <p>Why SDS<strong> HR consultancy in Bangalore</strong>  is convincing?</p>
 
                                                                             <ul>
-                                                                                <li >Versatile</li>
-                                                                                <li >Intelligent</li>
-                                                                                <li >An effective working model with peer</li>
-                                                                                <li >Generally safe</li>
-                                                                                <li >The choice to pioneer a thought</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Versatile</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Intelligent</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>An effective working model with peer</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>Generally safe</li>
+                                                                                 <li ><i class="fa fa-check-square"></i>The choice to pioneer a thought</li>
                                                                               
                                                                                 
                                                                             </ul>

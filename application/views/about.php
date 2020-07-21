@@ -86,18 +86,43 @@
                                                         <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
                                                             <div id=dslc-module-6515 class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                 <div class=dslc-text-module-content>
-                                                                    <?=$about[0]['content_1'];?>
+                                                                   
 
-                                                                        <?=$about[0]['content_2'];?>
+                                                                       
                                                                 </div>
                                                             </div>
                                                            
                                                         </div>
                                                     </div>
 												</div>
+
+		<section class="commonSection ab_agency" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-6 col-md-6 PR_79">
+                        <h4 class="sub_title">Welcome to </h4>
+                       
+                        <p class="sec_desc">
+						<?=$about[0]['content_1'];?>
+						<?=$about[0]['content_2'];?>
+                        </p>
+                        <!-- <a class="common_btn red_bg" href="#"><span>Learn More</span></a> -->
+                    </div>
+                    <div class="col-lg-6 col-sm-6 col-md-6">
+                        <div class="ab_img1">
+                            <img src="images/blog-grid-4.jpg" alt=""/>
+                        </div>
+                        <div class="ab_img2">
+                            <img src="images/blog-35.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Agency Section -->
 												
 										
-												<section class="home3-project">
+												<section class="dslc-modules-section home3-project">
 													
 													<div class="container-fluid">
 														<div class="row">
@@ -251,286 +276,11 @@
 													</div>
 												</section>
 
-												<section class="section  general-row"  id="demo-section" >
-														<div class="wpb_column col-md-12">
-														
 
-												<!--Testimonials-->
-
-												<section class="demo-section" >
-
-													<div class="demo-container">
-
-														
-
-														<div class="sec-title">
-
-															<h2>WHAT CLIENT SAY </h2>
-															<div class="separator small-separator"></div>
-															<br>
-															<div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words </p></div>
-														</div>
-
-														<br>
-														<br>
-														<!--Slider-->      
-
-														<div class="demo-slider column-carousel three-column">
-
-															
-
-															
-															
-
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Missar Hub</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-
-															
-															
-
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Jack Willshere</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-
-															
-															
-
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Mark Pine</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Missar Hub</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Jack Willshere</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Mark Pine</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Missar Hub</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Jack Willshere</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-															
-															<!--Slide-->
-
-															<article class="slide-item">
-
-																<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
-
-																<div class="info-box">
-
-																	<h3>Mark Pine</h3>
-
-																	<p class="designation">Co- Founder at Houzz</p>
-
-																</div>
-
-																
-
-																<div class="slide-text">
-
-																	<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
-
-																</div>
-
-															</article>
-
-														</div>
-
-														
-
-													</div>    
-
-												</section>
-
-													</div>
-
-													<div class="clearfix"></div>
-													</section>
-
-
+												  <!-- About Agency Section -->
 
                                                 <div class="dslc-modules-section " style=" padding-bottom: 20px;padding-top: 20px;border-top-style: hidden;">
-                                                    <div class="dslc-modules-section-wrapper dslc-clearfix" style="background: white;padding: 20px;border-top: 1px solid #fbfbfb;border-left: 1px solid #fbfbfb;padding-top: 40px; box-shadow: 10px 10px 10px #d4d4d473;">
+                                                    <div class="dslc-modules-section-wrapper dslc-clearfix" style="padding-bottom: 40px;background:white;">
                                                         <div class="dslc-modules-area dslc-col dslc-6-col dslc-first-col" data-size=6>
                                                             <div id=dslc-module-586579220d2 class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                 <div class=dslc-text-module-content>
@@ -549,6 +299,8 @@
                                                       
                                                     </div>
 												</div>  
+
+												
 												
 			
 
@@ -600,7 +352,284 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+												</div>
+												
+
+												<section class="dslc-modules-section  section  general-row"  id="demo-section" >
+														<div class="wpb_column col-md-12">
+														
+
+														<!--Testimonials-->
+
+													<section class="demo-section" >
+
+														<div class="demo-container">
+
+															
+
+															<div class="sec-title">
+
+																<h2>WHAT CLIENT SAY </h2>
+																<div class="separator small-separator"></div>
+																<br>
+																<div class="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words </p></div>
+															</div>
+
+															<br>
+															<br>
+															<!--Slider-->      
+
+															<div class="demo-slider column-carousel three-column">
+
+																
+
+																
+																
+
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Missar Hub</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+
+																
+																
+
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Jack Willshere</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+
+																
+																
+
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Mark Pine</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Missar Hub</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Jack Willshere</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Mark Pine</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Missar Hub</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Jack Willshere</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+																
+																<!--Slide-->
+
+																<article class="slide-item">
+
+																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+
+																	<div class="info-box">
+
+																		<h3>Mark Pine</h3>
+
+																		<p class="designation">Co- Founder at Houzz</p>
+
+																	</div>
+
+																	
+
+																	<div class="slide-text">
+
+																		<p>“We know that sometimes it’s difficult to get to the phone if you are in the middle of something and you don’t want to miss.”</p>
+
+																	</div>
+
+																</article>
+
+															</div>
+
+															
+
+														</div>    
+
+													</section>
+
+														</div>
+
+													<div class="clearfix"></div>
+												</section>
                                                 <!-- <div class="dslc-modules-section  dslc-hide-on-phone " style=padding-bottom:30px;padding-top:30px;background-color:#ffffff; data-section-id=90a91e865fc>
                                                 <div class="dslc-modules-section-wrapper dslc-clearfix">
                                                     <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
@@ -699,7 +728,7 @@
                                                                 </div>
                                                             </div>
                                                             -->
-                                                            <div class="background-clients ">
+                                                            <div class=" dslc-modules-section background-clients ">
 																<section  id="shadow-client" class="dslc-modules-product client-section ">
 																	<div class="block">
 																		<div class="container sec-title">

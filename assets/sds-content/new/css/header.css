@@ -1809,7 +1809,8 @@ body .modal.theme-lumberman .close-modal {
 @media only screen and (min-width: 320px) and (max-width: 479px){
     .dslc-modules-section-wrapper,
     .dslc-add-modules-section {
-        width: 290px!important
+        /* width: 290px!important */
+        padding: 10px;
     }
     .dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
         width: 100%!important
@@ -1819,7 +1820,8 @@ body .modal.theme-lumberman .close-modal {
 @media only screen and (min-width:1024px) and (max-width:1280px) {
     .dslc-modules-section-wrapper,
     .dslc-add-modules-section {
-        width: 940px !important
+        /* width: 940px !important */
+        padding: 10px;
     }
     .dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
         width: 100% !important
@@ -1830,7 +1832,8 @@ body .modal.theme-lumberman .close-modal {
 @media only screen and (min-width:768px) and (max-width:1023px) {
     .dslc-modules-section-wrapper,
     .dslc-add-modules-section {
-        width: 688px !important
+        /* width: 688px !important */
+        padding: 10px;
     }
     .dslc-modules-section.dslc-full .dslc-modules-section-wrapper {
         width: 100% !important
@@ -3104,7 +3107,8 @@ footer.footer-bottom span {
 
 .brand-footer{
     padding-bottom: 10px;
-    background-color: #ffffff;
+    padding-top: 10px;
+    background-color: #f9f9f9;
     /* border-top: 1px solid #efeaea8c; */
 }
 .video-choose-agile:after {
@@ -3405,7 +3409,7 @@ font-size: 20px;
     float: none;
     margin: 0px 0px;
     padding: 0px 0px;
-    background-color: #fff;
+    /* background-color: #fff; */
     -webkit-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
     -moz-box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);
     box-shadow: 8px 8px 30px 0px rgba(42, 67, 113, 0.15);

@@ -13,98 +13,28 @@
                         <div id=dslc-main>
                             <div class="dslc-modules-section " style="padding-bottom:0px;padding-top:0px;border-right-style: hidden; border-left-style: hidden; " data-section-id=065150a228a>
                                 <div class="dslc-modules-section-wrapper dslc-clearfix">
-                                    <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
-                                        <div id=dslc-module-1140 class="dslc-module-front dslc-module-DSLC_Separator dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                            <div class=dslc-separator-wrapper>
-                                                <div class="dslc-separator dslc-separator-style-invisible"></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
-                                        <div id=dslc-module-1135 class="dslc-module-front dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                            <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
-                                                <div class=dslc-info-box-wrapper>
-                                                    <div class="dslc-info-box-main-wrap dslc-clearfix">
-                                                        <div class=dslc-info-box-image>
-                                                            <div class=dslc-info-box-image-inner>
-                                                                <span class="dslc-icon "><i class="fas fa-exclamation-triangle"></i></span></div>
-                                                        </div>
-                                                        <div class=dslc-info-box-main>
-                                                            <div class=dslc-info-box-title>
-                                                                <h4>404</h4></div>
-                                                            <div class=dslc-info-box-content>
-                                                                <p>That page can’t be found.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                 
+                                    <div id="content" class="site-content">
+                                        <div class="container">
+                                            <div class="error-404 not-found text-center">
+                                                <h2>404 <img class="error-image" src="images/404.png" alt="404"></h2>
+                                                <h1>Sorry! Page Not Found!</h1>
+                                                <div class="content-404">
+                                                    <p>Oops! The page you are looking for does not exist. Please return to the site’s homepage.</p>
+                                                    <form role="search" method="get" id="search-form" class="search-form" action="#">
+                                                        <!-- <input type="search" class="search-field" placeholder="Search…" value="" name="s">
+                                                        <button type="submit" class="search-submit"><i class="flaticon-search"></i></button> -->
+                                                    </form>            
+                                                    <a class="octf-btn octf-btn-third octf-btn-icon" href="<?=base_url();?>">Take Me Home<i class="flaticon-right-arrow-1"></i></a>
                                                 </div>
                                             </div>
                                         </div>
+
                                     </div>
-                                    <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
-                                        <div id=dslc-module-8169 class="dslc-module-front dslc-module-DSLC_Separator dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                            <div class=dslc-separator-wrapper>
-                                                <div class="dslc-separator dslc-separator-style-invisible"></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                 
                                 </div>
                             </div>
-                            <div class="dslc-modules-section " style="padding-bottom:0px;padding-top:0px;background-color:rgb(241, 241, 241);border-right-style: hidden; border-left-style: hidden; " data-section-id=7cc8bf97f60>
-                                <div class="dslc-modules-section-wrapper dslc-clearfix">
-                                    <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
-                                        <div id=dslc-module-8201 class="dslc-module-front dslc-module-DSLC_Separator dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                            <div class=dslc-separator-wrapper>
-                                                <div class="dslc-separator dslc-separator-style-invisible"></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
-                                        <div id=dslc-module-1161 class="dslc-module-front dslc-module-DSLC_Html dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
-                                            <div class=dslc-html-module-content>
-                                                <div class="dslc-widget widget_search" id=search-page>
-                                                    <form role=search action="" class=searchform id=searchform method=get>
-                                                        <label class=screen-reader-text for=s>Search</label>
-                                                        <input type=search placeholder="Search …" id=s value name=s class=field>
-                                                        <input type=submit value=Search id=searchsubmit class="submit button">
-                                                    </form>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div id=dslc-module-1162 class="dslc-module-front dslc-module-DSLC_Text_Simple dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
-                                            <div class=dslc-text-module-content>
-                                                <p>Find what you're looking for by browsing the links below or searching up above.</p>
-                                            </div>
-                                        </div>
-                                        <div id=dslc-module-1163 class="dslc-module-front dslc-module-DSLC_Widgets dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                            <div class="dslc-widgets dslc-clearfix dslc-widgets-4-col">
-                                                <div class="dslc-widgets-wrap dslc-clearfix">
-                                                    <div id=categories-5 class="dslc-widget dslc-col widget_categories">
-                                                        <div class=dslc-widget-wrap>
-                                                            <h3 class="dslc-widget-title">
-                                                                <span class=dslc-widget-title-inner>Categories</span></h3>
-                                                            <ul>
-                                                              <span class="dslc-icon"><i class="far fa-bookmark"></i>&emsp;No categories</span>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
-                                        <div id=dslc-module-8196 class="dslc-module-front dslc-module-DSLC_Separator dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                            <div class=dslc-separator-wrapper>
-                                                <div class="dslc-separator dslc-separator-style-invisible"></div>
-                                                <div></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                     <div  class="dslc-footer dslc-footer-pos-relative dslc-content " data-hf >

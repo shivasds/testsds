@@ -24,6 +24,17 @@
 .media-body {
     width: initial;
 }
+@media only screen and (min-width: 767px){
+        
+
+        #dslc-content .fist2 .dslc-info-box-icon-pos-aside .dslc-info-box-main,
+        #dslc-content .fist3 .dslc-info-box-icon-pos-aside .dslc-info-box-main{
+            margin-bottom:30px!important
+        }
+
+       
+    }
+    
   </style>
 <body class="">
     <div class=off-canvas-wrap>
@@ -235,8 +246,8 @@
                                                 <div class="col-lg-12">
                                                     <div class="row">
                                                         <!-- fist col -->
-                                                        <div class="col-lg-4">
-                                                            <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
+                                                         <div class="col-lg-6">
+                                                            <div id=dslc-module-Icons class="fist1 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
                                                                 <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                     <div class=dslc-info-box-wrapper>
                                                                         <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -249,6 +260,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class=dslc-info-box-main>
+                                                                            <span class="big-number">01</span>
                                                                               <?=$content[0]['content_6'];?>
                                                                             </div>
                                                                         </div>
@@ -257,8 +269,8 @@
                                                             </div>
                                                         </div>
                                                         <!-- second col -->
-                                                       <div class="col-lg-4">
-                                                         <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                        <div class="col-lg-6">
+                                                         <div id=dslc-module-Icons class="fist2 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                             <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                 <div class=dslc-info-box-wrapper>
                                                                     <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -271,6 +283,7 @@
                                                                             </div>
                                                                         </div>
                                                                         <div class=dslc-info-box-main>
+                                                                        <span class="big-number">02</span>
                                                                             <?=$content[0]['content_7'];?>
                                                                         </div>
                                                                     </div>
@@ -279,8 +292,8 @@
                                                           </div>
                                                        </div>
                                                        <!-- third col -->
-                                                        <div class="col-lg-4">
-                                                           <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                         <div class="col-lg-6">
+                                                           <div id=dslc-module-Icons class="fist3 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                 <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                     <div class=dslc-info-box-wrapper>
                                                                         <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -292,6 +305,7 @@
                                                                                     </span></div>
                                                                             </div>
                                                                             <div class=dslc-info-box-main>
+                                                                            <span class="big-number">03</span>
                                                                                 <?=$content[0]['content_8'];?>
                                                                             </div>
                                                                         </div>
@@ -299,11 +313,10 @@
                                                                 </div>
                                                             </div> 
                                                         </div>
-                                                    </div>  
-                                                    <div class="row">
+                                                   
                                                          <!-- fourth col -->
-                                                        <div class="col-lg-4">
-                                                            <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                         <div class="col-lg-6">
+                                                            <div id=dslc-module-Icons class="fist4 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                 <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                     <div class=dslc-info-box-wrapper>
                                                                         <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -315,6 +328,7 @@
                                                                                     </span></div>
                                                                             </div>
                                                                             <div class=dslc-info-box-main>
+                                                                            <span class="big-number">04</span>
                                                                             <?=$content[0]['content_9'];?>
                                                                             </div>
                                                                         </div>
@@ -322,10 +336,11 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        </div>
                                                  
-                                                   
-                                                        <div class="col-lg-4">
-                                                            <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                   <div class="row">
+                                                         <div class="col-lg-6" style="margin:0 auto;">
+                                                            <div id=dslc-module-Icons class="fist5 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                 <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                     <div class=dslc-info-box-wrapper>
                                                                         <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -337,6 +352,7 @@
                                                                                     </span></div>
                                                                             </div>
                                                                             <div class=dslc-info-box-main>
+                                                                            <span class="big-number">05</span>
                                                                                 <?=$content[0]['content_10'];?>
                                                                             </div>
                                                                         </div>

@@ -1604,5 +1604,65 @@ body .pika-label {
     width: auto
 }
 
+/*----------------------------------------------------
+/ 4. About Agency
+------------------------------------------------------*/
+.ab_agency{
+    padding-bottom: 10px;
+}
+.PR_79{
+    padding-right: 79px;
+}
+.MB_45{
+    margin-bottom: 45px;
+}
+.ab_img1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.ab_img1 img{
+    max-width: 100%;
+    height: auto;
+    -webkit-box-shadow: -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         -2px 4px 30px 0px rgba(0, 0, 0, 0.3);
+}
+.ab_img2{
+    position: absolute;
+    left: 0;
+    top: 100px;
+    z-index: 2;
+}
+.ab_img2:after{
+    position: absolute;
+    top: -65px;
+    left: 40px;
+    content: '';
+    border: 10px solid #1874c0;
+    width: 470px;
+    height: 366px;
+}
+.ab_img2 img{
+    max-width: 100%;
+    height: auto;
+    -webkit-box-shadow: -2px 4px 35px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    -2px 4px 35px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         -2px 4px 35px 0px rgba(0, 0, 0, 0.3);
+}
 
+/* My SEction */
 
+.PR_79 .sec_title{
+    line-height: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+    color: #218ac9;
+}
+
+.PR_79 p{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: left;
+}

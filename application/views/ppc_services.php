@@ -14,6 +14,17 @@
         .mrbottom{
         margin-bottom:30px;
         }
+        @media only screen and (min-width: 767px){
+        
+
+        #dslc-content .fist2 .dslc-info-box-icon-pos-aside .dslc-info-box-main{
+            margin-bottom:60px!important
+        }
+
+        #dslc-content .fist5 .dslc-info-box-icon-pos-aside .dslc-info-box-main{
+            margin-bottom:34px!important
+        }
+    }
     </style>
   
 
@@ -150,8 +161,8 @@
                                                
                                             </div>
                                         </div>
-                                        <div class="dslc-modules-section " style="padding-bottom:0px;padding-top:0px;border-color:rgb(241, 241, 241);border-top-style: hidden; border-right-style: hidden; border-left-style: hidden; " data-section-id=57b8a94833e>
-                                            <div class="dslc-modules-section-wrapper dslc-clearfix home8-service">
+                                        <div class="dslc-modules-section home8-service " style="padding-bottom:0px;padding-top:0px;border-color:rgb(241, 241, 241);border-top-style: hidden; border-right-style: hidden; border-left-style: hidden; " data-section-id=57b8a94833e>
+                                            <div class="dslc-modules-section-wrapper dslc-clearfix ">
                                                 <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
                                                     <div id=dslc-module-7529f874ad6 class="dslc-module-front dslc-module-DSLC_Separator dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                         <div class=dslc-separator-wrapper>
@@ -176,8 +187,9 @@
                                                 <div class="col-lg-12">
                                                        <div class="row">
                                                            <!-- fist col -->
-                                                           <div class="col-lg-4">
-                                                              <div id=dslc-module-1c9e6cc8100 class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
+                                                           <!-- Search ads -->
+                                                           <div class="col-lg-6">
+                                                              <div id=dslc-module-1c9e6cc8100 class="fist1 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
                                                                 <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                     <div class=dslc-info-box-wrapper>
                                                                         <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -197,31 +209,38 @@
                                                               </div>
                                                            </div>
 
-                                                             <!-- second col -->
-                                                             <div class="col-lg-4">
-                                                               <div id=dslc-module-1c9e6cc8100 class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                                                    <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
-                                                                        <div class=dslc-info-box-wrapper>
-                                                                            <div class="dslc-info-box-main-wrap dslc-clearfix">
-                                                                                <div class=dslc-info-box-image>
-                                                                                    <div class=dslc-info-box-image-inner >
-                                                                                        <span class="dslc-icon">
-                                                                                           <!-- <i class="fa fa-video-camera" style="color: #033;"></i> -->
-                                                                                           <img src='assets/sds-content/uploads/icons/Video Ads.jpg'>
-                                                                                        </span></div>
-                                                                                </div>
-                                                                                <div class="dslc-info-box-main new">
-                                                                                <?=$content[0]['content_7'];?>
+                                                            <!-- fifth col -->
+                                                            <!-- Mobile Ads -->
+                                                               <div class="col-lg-6">
+                                                                    <div id=dslc-module-1c9e6cc8100 class="fist2 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                                        <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
+                                                                            <div class=dslc-info-box-wrapper>
+                                                                                <div class="dslc-info-box-main-wrap dslc-clearfix">
+                                                                                    <div class=dslc-info-box-image>
+                                                                                        <div class=dslc-info-box-image-inner >
+                                                                                            <span class="dslc-icon ">
+                                                                                               <!-- <i class="fa fa-mobile" style="color: #4bc22d;"></i> -->
+                                                                                               <img src='assets/sds-content/uploads/icons/Mobile Ads.jpg'>
+                                                                                            </span></div>
+                                                                                    </div>
+                                                                                    <div class="dslc-info-box-main new">
+                                                                                    <h4><b>Mobile Ads</b></h4>
+                                                                                    <p>We Can Setup Ads For Mobile Users As Well, Where We can Show Our Ads Only In Mobile Devices Like 
+                                                                                                For Installing An App. We Can Also Show A Image Banner On A Relevant App Or Website Only On Mobile Devices</p>
+                                                                                    
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                             </div>
+
+                                                           
 
                                                              <!-- third col -->
-                                                             <div class="col-lg-4">
-                                                                <div id=dslc-module-1c9e6cc8100 class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
+                                                             <!-- Display Ads -->
+                                                             <div class="col-lg-6">
+                                                                <div id=dslc-module-1c9e6cc8100 class="fist3 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
                                                                     <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                         <div class=dslc-info-box-wrapper>
                                                                             <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -240,13 +259,13 @@
                                                                     </div>
                                                                 </div>
                                                              </div>
-                                                        </div>
-                                                        <br>
-                                                        <div class="row">
+                                                        
 
-                                                            <!-- fourth col -->
-                                                             <div class="col-lg-4">
-                                                                <div id=dslc-module-1c9e6cc8100 class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
+                                                            
+                                                             <!-- fourth col -->
+                                                             <!-- Remarketing Ads -->
+                                                             <div class="col-lg-6">
+                                                                <div id=dslc-module-1c9e6cc8100 class="fist4 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
                                                                     <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                         <div class=dslc-info-box-wrapper>
                                                                             <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -271,37 +290,35 @@
                                                                 </div>
                                                              </div>
 
-                                                              <!-- fifth col -->
-
-                                                              <div class="col-lg-4">
-                                                                    <div id=dslc-module-1c9e6cc8100 class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular ">
-                                                                        <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
-                                                                            <div class=dslc-info-box-wrapper>
-                                                                                <div class="dslc-info-box-main-wrap dslc-clearfix">
-                                                                                    <div class=dslc-info-box-image>
-                                                                                        <div class=dslc-info-box-image-inner >
-                                                                                            <span class="dslc-icon ">
-                                                                                               <!-- <i class="fa fa-mobile" style="color: #4bc22d;"></i> -->
-                                                                                               <img src='assets/sds-content/uploads/icons/Mobile Ads.jpg'>
-                                                                                            </span></div>
-                                                                                    </div>
-                                                                                    <div class="dslc-info-box-main new">
-                                                                                    <h4><b>Mobile Ads</b></h4>
-                                                                                    <p>We Can Setup Ads For Mobile Users As Well, Where We can Show Our Ads Only In Mobile Devices Like 
-                                                                                                For Installing An App. We Can Also Show A Image Banner On A Relevant App Or Website Only On Mobile Devices</p>
-                                                                                    
-                                                                                    </div>
+                                                              <!-- second col -->
+                                                              <!-- Video Ads -->
+                                                              <div class="col-lg-6">
+                                                               <div id=dslc-module-1c9e6cc8100 class="fist5 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
+                                                                    <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
+                                                                        <div class=dslc-info-box-wrapper>
+                                                                            <div class="dslc-info-box-main-wrap dslc-clearfix">
+                                                                                <div class=dslc-info-box-image>
+                                                                                    <div class=dslc-info-box-image-inner >
+                                                                                        <span class="dslc-icon">
+                                                                                           <!-- <i class="fa fa-video-camera" style="color: #033;"></i> -->
+                                                                                           <img src='assets/sds-content/uploads/icons/Video Ads.jpg'>
+                                                                                        </span></div>
+                                                                                </div>
+                                                                                <div class="dslc-info-box-main new">
+                                                                                <?=$content[0]['content_7'];?>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
+                                                             </div>
                                                           
 
                                                                 <!-- sixth col -->
-                                                                <div class="col-lg-4">
+                                                                <!-- Shopping Ads -->
+                                                                <div class="col-lg-6">
 
-                                                                <div id=dslc-module-1c9e6cc8100 class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
+                                                                <div id=dslc-module-1c9e6cc8100 class="fist6 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
                                                                     <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                                         <div class=dslc-info-box-wrapper>
                                                                             <div class="dslc-info-box-main-wrap dslc-clearfix">

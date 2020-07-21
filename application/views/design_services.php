@@ -3,6 +3,18 @@
 <!-- <link rel=stylesheet id=ms-custom-css href='assets/sds-content/new/css/common.css' type=text/css media=all>
  -->
 
+
+ <style>
+     @media only screen and (min-width: 767px){
+        
+
+        #dslc-content .fist2 .dslc-info-box-icon-pos-aside .dslc-info-box-main{
+            margin-bottom:30px!important
+        }
+
+       
+    }
+     </style>
 <body class="">
     <div class=off-canvas-wrap>
         <div class="site global-container inner-wrap" id=global-container>
@@ -83,8 +95,13 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="dslc-modules-area dslc-col dslc-4-col dslc-first-col" data-size=4>
-                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular "  >
+
+                                                <div class="col-lg-12">
+                                                    <div class="row">
+                                                        <!-- fist col -->
+                                                <div class="col-lg-6">
+                                                   <!-- <div class="dslc-modules-area dslc-col dslc-6-col dslc-first-col" data-size=6> -->
+                                                    <div id=dslc-module-Icons class="fist1 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular "  >
                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                             <div class=dslc-info-box-wrapper>
                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -103,28 +120,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="dslc-modules-area dslc-col dslc-4-col " data-size=4>
-                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
-                                                        <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
-                                                            <div class=dslc-info-box-wrapper>
-                                                                <div class="dslc-info-box-main-wrap dslc-clearfix">
-                                                                    <div class=dslc-info-box-image>
-                                                                        <div class=dslc-info-box-image-inner >
-                                                                            <span class="dslc-icon">
-                                                                                 <!-- <i class="fa fa-image"  style="color: #ff69b4;"></i> -->
-                                                                                 <img src='assets/sds-content/uploads/icons/Infographics Designing.png'>
-                                                                            </span></div>
-                                                                    </div>
-                                                                    <div class=dslc-info-box-main>
-                                                                        <?=$content[0]['content_3'];?>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="dslc-modules-area dslc-col dslc-4-col dslc-last-col" data-size=4>
-                                                    <div id=dslc-module-Icons class="dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
+
+                                                <div class="col-lg-6">
+                                                     <!-- <div class="dslc-modules-area dslc-col dslc-6-col dslc-last-col" data-size=6> -->
+                                                    <div id=dslc-module-Icons class="fist2 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
                                                         <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
                                                             <div class=dslc-info-box-wrapper>
                                                                 <div class="dslc-info-box-main-wrap dslc-clearfix">
@@ -143,6 +142,31 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>  
+                                            <div class="row">  
+                                                <div class="col-lg-6" style="margin:0 auto;">
+                                                    <!-- <div class="dslc-modules-area dslc-col dslc-6-col " data-size=6> -->
+                                                    <div id=dslc-module-Icons class="fist3 service-box s-box m-b30 dslc-module-front service-box-2 s1 dslc-module-DSLC_Info_Box dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
+                                                        <div class="dslc-info-box dslc-info-box-icon-pos-aside dslc-info-box-image-pos-above">
+                                                            <div class=dslc-info-box-wrapper>
+                                                                <div class="dslc-info-box-main-wrap dslc-clearfix">
+                                                                    <div class=dslc-info-box-image>
+                                                                        <div class=dslc-info-box-image-inner >
+                                                                            <span class="dslc-icon">
+                                                                                 <!-- <i class="fa fa-image"  style="color: #ff69b4;"></i> -->
+                                                                                 <img src='assets/sds-content/uploads/icons/Infographics Designing.png'>
+                                                                            </span></div>
+                                                                    </div>
+                                                                    <div class=dslc-info-box-main>
+                                                                        <?=$content[0]['content_3'];?>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                              
                                                 <!-- <div class="dslc-modules-area dslc-col dslc-12-col dslc-last-col" data-size=12>
                                                     <div id=dslc-module-6aafd58c38b class="dslc-module-front dslc-module-DSLC_Separator dslc-in-viewport-check dslc-in-viewport-anim-none  dslc-col dslc-12-col dslc-last-col  dslc-module-handle-like-regular " >
                                                         <div class=dslc-separator-wrapper>
@@ -152,6 +176,8 @@
                                                     </div>
                                                 </div> -->
                                             </div>
+                                        </div>
+                                        </div>
                                         </div>
 
                                         
