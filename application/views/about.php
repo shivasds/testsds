@@ -276,7 +276,7 @@
 													</div>
 												</section>
 
-
+<br>
 												  <!-- About Agency Section -->
 
                                                 <div class="dslc-modules-section " style=" padding-bottom: 20px;padding-top: 20px;border-top-style: hidden;">
@@ -390,7 +390,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-1-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-1-90x90"  sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -419,7 +419,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-2-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-2-90x90"  sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -448,7 +448,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-3-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-3-90x90"  sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -473,7 +473,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-1-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-1-90x90"  sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -498,7 +498,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-2-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-2-90x90" sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -523,7 +523,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-3-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-3-90x90"  sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -548,7 +548,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-1.jpg" class="img-responsive wp-post-image" alt="testi-image-1" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-1-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-1-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-1-90x90"  sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -573,7 +573,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-2.jpg" class="img-responsive wp-post-image" alt="testi-image-2" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-2-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-2-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-2-90x90"  sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 
@@ -598,7 +598,7 @@
 
 																<article class="slide-item">
 
-																	<figure class="image-box"><img width="90" height="90" src="wp-content/uploads/2015/12/testi-image-3.jpg" class="img-responsive wp-post-image" alt="testi-image-3" srcset="http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3.jpg 100w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-90x90.jpg 90w, http://wp1.themexlab.com/wp/dreamland/wp-content/uploads/2015/12/testi-image-3-70x70.jpg 70w" sizes="(max-width: 90px) 100vw, 90px" /></figure>
+																	<figure class="image-box"><img width="90" height="90" src="images/testimonial/testi-image-3-90x90.jpg" class="img-responsive wp-post-image" alt="testi-image-3-90x90" sizes="(max-width: 90px) 100vw, 90px" /></figure>
 
 																	<div class="info-box">
 

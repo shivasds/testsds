@@ -6190,6 +6190,17 @@ form label {
 }
 
 @media only screen and (max-width:767px) {
+
+    .footer1 .col-sm-6{
+        width: 50%;
+    }
+    .title-widget::before{
+        display: none;
+    }
+
+    .title-widget{
+        padding-left: 0px;
+    }
     .dslc-text-module-content h2,.dslc-text-module-content h2 strong{
     font-size: 18px;
     font-weight: 500;
@@ -6203,7 +6214,7 @@ form label {
     
     .title-widget {
         color: #fff;
-        font-size: 18px!important;
+        font-size: 17px!important;
     }
     body .notification-panel {
         display: none !important

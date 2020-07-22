@@ -11399,6 +11399,7 @@ div.tp-bullets{
   .lg-hidden {
     display: none;
   }
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .md-hidden {
@@ -11749,6 +11750,9 @@ div.tp-bullets{
   }
 }
 @media (max-width: 767px) {
+  .projects-box .projects-thumbnail {
+    padding-top: 50px;
+  }
   .elementor .elementor-hidden-phone {
     display: none;
   }

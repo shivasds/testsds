@@ -3357,6 +3357,12 @@ font-weight: 500;
         font-size: 13px;
         line-height: 22px;
         margin-top: 20px
+       
+    }
+    #dslc-content .dslc-info-box-icon-pos-aside .dslc-info-box-image{
+        margin-right: 20px;
+        float: none!important;
+        text-align: center;
     }
 }
 

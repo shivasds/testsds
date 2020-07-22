@@ -1271,7 +1271,7 @@ font-weight: 500;
     }
     #dslc-module-Icons .dslc-info-box-main-wrap {
         max-width: 100%;
-        border-bottom: 1px solid #f1efef;
+        border-bottom: 0px solid #f1efef;
         text-align: center;
     }
     #dslc-module-Icons .dslc-info-box-image {

@@ -1604,15 +1604,36 @@ body .pika-label {
     width: auto
 }
 
+@media (min-width:800px){
+
+    .PR_79{
+        padding-right: 79px;
+    }
+}
+
+@media (max-width:799px){
+    .PR_79 .sec_title {
+        line-height: 30px;
+        margin-bottom: 15px;
+        text-align: left;
+        font-size: 18px!important;
+        color: #218ac9;
+    }
+    .PR_79{
+        margin-bottom: 20px;
+    }
+    .ab_agency{
+        padding-bottom: 120px;
+        margin-bottom: 340px;
+    }
+}
 /*----------------------------------------------------
 / 4. About Agency
 ------------------------------------------------------*/
 .ab_agency{
     padding-bottom: 10px;
 }
-.PR_79{
-    padding-right: 79px;
-}
+
 .MB_45{
     margin-bottom: 45px;
 }
@@ -1659,6 +1680,8 @@ body .pika-label {
     margin-bottom: 15px;
     text-align: left;
     color: #218ac9;
+    font-size: 30px;
+    font-size: 23px;
 }
 
 .PR_79 p{
